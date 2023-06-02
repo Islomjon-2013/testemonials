@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -50px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(208, 208, 245);
+}
+.testemonial-container {
+  width: 500px;
+  height: 200px;
+  background-color: blue;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px black;
+  min-width: 400px;
+  padding: 70px 20px;
+  margin: 5px;
+  color: white;
+  position: relative;
+}
+.username {
+  font-size: 13px;
+  font-weight: 100;
+}
